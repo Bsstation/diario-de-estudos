@@ -32,8 +32,34 @@ header{
     border: 2px solid white;
 }
 
+iframe{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#subtitle{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-indent: 0;
+    text-align: center;
+}
+
+#directref{
+    line-height: 1;
+    text-indent: 0;
+    font-size: 14px;
+    margin-left: 4cm;
+}
+
+h3{
+    text-indent: 0;
+}
+
 #Content{
     overflow: auto;
+    text-indent: 1cm;
 }
 
 #content0{
@@ -90,6 +116,7 @@ header{
 }
 
 nav{
+    text-indent: 0;
     width: 16%;
     color: white;
     height: auto;
