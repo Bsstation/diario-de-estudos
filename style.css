@@ -1,0 +1,121 @@
+/*
+    Color Pallete
+    black: #2a2522
+    green: #359830
+    red: #c90c0f
+*/
+
+a {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #359830;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+body{
+    width: 98%;
+    margin: 0px auto;
+    background: linear-gradient(to top right, #000000 0%, #2a2522 100%);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+    padding: 10px;
+    margin-top: 10px;
+    height: 100px;
+    background: linear-gradient(to top right, #000000 0%, #359830 100%);
+    border: 2px solid white;
+}
+
+#Content{
+    overflow: auto;
+}
+
+#content0{
+    display: block;
+}
+
+#content1{
+    display: none;
+}
+
+#content2{
+    display: none;
+}
+
+#content3{
+    display: none;
+}
+
+#content4{
+    display: none;
+}
+
+#content5{
+    display: none;
+}
+
+#content6{
+    display: none;
+}
+
+#content7{
+    display: none;
+}
+
+#content8{
+    display: none;
+}
+
+#content9{
+    display: none;
+}
+
+#content10{
+    display: none;
+}
+
+#Presentation{
+    margin: 10px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    border: 3px double white;
+}
+
+nav{
+    width: 16%;
+    color: white;
+    height: auto;
+    border: 3px double white;
+    padding: 10px 20px;
+    background: linear-gradient(to top right, #000000 0%, #2a2522 100%);
+}
+
+section{
+    border: 3px double white;
+    padding: 0px 20px;
+    width: 74%;
+    line-height: 1.5;
+    color: white;
+    float: right;
+    text-align: justify;
+}
+
+footer{
+    color: white;
+    min-height: 90px;
+    max-height: fit-content;
+    background: linear-gradient(to top right, #000000 0%, #359830 100%);
+    clear: both;
+    margin: 10px 0px;
+    padding: 10px;
+    border: 2px solid white;
+    vertical-align: middle;
+}
