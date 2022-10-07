@@ -55,6 +55,7 @@ iframe{
 
 h3{
     text-indent: 0;
+    text-align: left;
 }
 
 #Content{
@@ -145,4 +146,5 @@ footer{
     padding: 10px;
     border: 2px solid white;
     vertical-align: middle;
+    text-align: justify;
 }
