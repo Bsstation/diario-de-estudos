@@ -124,6 +124,7 @@ nav{
     border: 3px double white;
     padding: 10px 20px;
     background: linear-gradient(to top right, #000000 0%, #2a2522 100%);
+    position: sticky;
 }
 
 section{
